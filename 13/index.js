@@ -42,7 +42,7 @@ var template = fs.readFileSync('./template.html', 'utf8', function(err,data){
         from: '"Fred Foo 👻" <foo@example.com>', // sender address
         to: recepient,
         subject: 'Привет мир от NodeJS ✔', // Subject line
-        text: 'шаблонный текст? беее... смотри HTML!', // plain text body
+        text: 'шаблонный текст? беее... смотри HTMLit ', // plain text body
         html: template // html body
     };
 
